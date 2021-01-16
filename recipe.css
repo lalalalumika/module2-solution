@@ -1,0 +1,66 @@
+/**change background color*/
+body{
+    background-color:antiquewhite;
+    color: #00c70e;
+    margin: 100px;
+}
+h1{
+    /**change the font of text*/
+    font-family: sans-serif;
+    /**change the size of text*/
+    font-size: 40px;
+    /**change the marging under the text*/
+}
+/**change a color of the text and remove underline*/
+a{
+    display:inline-block;
+    width: 400px;
+    color: #ff0a0e;
+    text-decoration: none;
+    font-size: 40px;
+}
+/**change background color when a mouse is on the text*/
+a:hover{
+    background: #ffc9bb;
+    color: #ff0a0e;
+}
+/**creates two colums*/
+.responce{
+    display:inline-block;
+    float: inherit;
+    width: 400px;
+    color: #00c70e;
+    background-color: aquamarine;
+}
+
+.im{
+    display: inline-block;
+    width: 200px;
+    height: 200px;
+    margin-right: 200px;
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+
+.im:hover{
+    width: 300px;
+    height: 300px;
+    margin-right: 100px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+@media (min-width:1200px){
+    body{
+        background-color: dimgrey;
+    }
+}
+@media (min-width: 992px) and (max-width: 1199px){
+    body{
+        background-color: black;
+    }
+}
+@media (min-width: 990px) and (max-width: 991px){
+    body{
+        background-color:aqua;
+    }
+}
